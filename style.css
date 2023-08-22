@@ -32,12 +32,19 @@ nav{
 }
 .links a{
     color: black;
-    padding-left: 15px;
+    padding-left: 25px;
     text-decoration: none;
+    transition: 0.5s;
+}
+.links a:hover{
+    color: red;
 }
 main{
-    height: 500px;
+    height: 200px;
     /*background-color: green;*/
     padding-top: 30px;
     font-size: 30px;
+}
+#about{
+    font-size: 50px;
 }
